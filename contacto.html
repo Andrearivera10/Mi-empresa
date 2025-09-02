@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contacto</title>
+</head>
+<body>
+	<div style="text-align: center;">
+		<a href="nosotros.html">nosotros</a>
+		<a href="producto.html">productos</a>
+		<a href="inicio.html">inicio</a>
+	</div>
+	<div style="text-align: center;">
+		<h1>Contactenos</h1>
+		<p>Tenemos servicio de Lunes a Sabado de 7am a 7pm y Domingos y festivos de 8am a 12pm</p>
+		<img src="imagenes/gondola-con-maniqui-para-tienda-de-deportes.webp" width="40%">
+	</div>
+	<div style="text-align: center;">
+		<h2>Escribenos para tener el gusto de atenderte.</h2>
+		<form>
+		<label>Nombre</label>	
+		<input type="text" aria-paceholder="En mayuscula"> <br>
+		<label>Telefono</label>
+		<input type="number"> <br>
+		<label>Correo electronico</label>
+		<input type="email" required> <br>
+		<label> Fecha de nacimiento:</label>
+		<input  type="date" min="1980-01-31" max="2007-12-31"> <br> <br> <br>
+        <label>Edad:</label>
+		<input type="number" min="18" max="50"> <br>
+		<label>Sube una foto:</label>
+		<input type="file" accept=".jpg, .png, .jpeg"> <br>
+		<label>Selecciona un genero:</label>
+		<input type="radio" name="genero" value="hombre">Hombre
+		<input type="radio" name="genero" value="mujer">Mujer
+		<input type="radio" name="genero" value="otro">Otro
+		<br>
+		<label>Selecciona productos:</label> <br>
+		<input type="checkbox" name="producto" value="">
+		<input type="checkbox" name="producto" value="">
+		<input type="checkbox" name="producto" value="">
+        <br>
+		<label>¿Como te contactamos?</label>
+		<select name="contacto" id="">
+        <option value="Celular"> Celular</option>
+		<option value="Correo">Correo</option>
+		</select>
+		<br>
+		<label>Mensaje:</label>
+		<br>
+		<textarea name="Mensaje"></textarea>
+		<br> <br> <br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Borrar</button>
+	</form>
+</div>
+</body>
+</html>
